@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Prueba</title>
+
+    <!-- Conectamos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Esto es la parte superior -->
+    <header>
+        <h1>¡Bienvenido a mi página de prueba!</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+</header>
+
+    <!-- Contenido principal -->
+    <main>
+        <h2>Sobre esta página</h2>
+        <p>Está hecha con HTML, CSS y JavaScript.</p>
+        <button id="boton">Haz clic aqui</button>
+        <p id="mensaje"></p>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>© 2025 Mi página de prueba</p>
+    </footer>
+
+    <!-- Conectamos JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
