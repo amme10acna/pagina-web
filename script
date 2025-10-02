@@ -1,0 +1,5 @@
+// Selecciona el botón por su ID
+document.getElementById("boton").addEventListener("click", function() {
+    // Cambia el texto al hacer clic
+    document.getElementById("mensaje").innerText = "¡Gracias por hacer clic! ";
+});
